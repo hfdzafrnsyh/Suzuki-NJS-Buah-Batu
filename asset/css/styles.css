@@ -809,6 +809,7 @@ footer {
 }
 
 .btn-live-action span {
+    padding: 10px 30px;
     background-color: #313A8C;
     color: whitesmoke;
 }
@@ -1068,8 +1069,9 @@ footer {
 }
 
 .btn-live-action span{
-    padding: 0 40px;
+    padding: 10 20px;
 }
+
 
 
 
@@ -1371,7 +1373,9 @@ footer {
    
 }
 
-
+.btn-live-action span{
+    padding: 10px 10px;
+}
 
 }
 
