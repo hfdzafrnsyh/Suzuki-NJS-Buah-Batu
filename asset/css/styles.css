@@ -773,7 +773,7 @@ footer {
 /* .live-action */
 .realive-action {
     position: fixed;
-    z-index: 66666;
+    z-index: 10;
     
     width: 100%;
     
@@ -964,9 +964,6 @@ footer {
 
 
 
-
-
-
 /* section exterior */
 
 .image-exterior-top img{
@@ -1014,8 +1011,6 @@ footer {
     top: 170px;
     font-size: 18px;
 }
-
-
 
 
 
@@ -1118,8 +1113,7 @@ footer {
       }
       
       
-     
-    
+   
     /* image-header */
     .slider-image-header {
         height: 400px;
@@ -1370,7 +1364,13 @@ footer {
     position: relative;
     width: 100%;
     left: 0;
+    bottom: 0;
+    
    
+}
+
+.live-actions {
+    top: 550px;
 }
 
 .btn-live-action span{
