@@ -774,17 +774,20 @@ footer {
 .realive-action {
     position: fixed;
     z-index: 66666;
-    text-align: center;
-    width: 530px;
+    
+    width: 100%;
+    
     
 }
 .live-action {
     position: relative;
-    text-align: center;
-
+    /* width: 100%; */
+    width: 530px;
+    left: 280px;
 }
 
 .live-actions {
+    
     position: absolute;
     cursor: pointer;
     justify-content: space-between;
@@ -802,7 +805,6 @@ footer {
 
 
 .btn-live-action {
-   
     width: 100%;
 }
 
@@ -1017,13 +1019,13 @@ footer {
 }
 
 /* live-action */
-.realive-action {
-    width: 350px;
-    
-}
 
-.live-actions {
-    padding: 10px 10px;
+
+.live-action {
+    position: relative;
+    width: 100%;
+    left: 0;
+   
 }
 
 .btn-live-action span{
@@ -1313,15 +1315,12 @@ footer {
 }
 
 /* live-action */
-.realive-action {
-    width: 250px;
-    
+.live-action {
+    position: relative;
+    width: 100%;
+    left: 0;
+   
 }
-
-.live-actions {
-    padding: 10px 10px;
-}
-
 
 
 
